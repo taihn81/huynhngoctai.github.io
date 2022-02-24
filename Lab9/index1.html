@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9Bai2</title>
+    <style>
+        button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32C5D2;
+    color: white;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+button:hover{
+    font-size: 15px;
+}
+.login{
+    width: 410px;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+input[type="text"], input[type="radio"], input[type="file"]
+{
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+#qt{
+    margin: 5px 0;
+
+}
+
+    </style>
+</head>
+<body>
+   <form class="login" Method="post" Enctype="multipart/form-data">
+    <label>Họ và tên:</label> <br/>
+    <input type="text"> <br/>
+    <label>Giới tính: </label>
+    <input type="radio" name="sex" value="nam"> Nam 
+    <input type="radio" name="sex" value="nu"> nữ <br/> 
+    <label for="">Hình ảnh: </label> <br/>
+    <input type="file" name="" id=""> <br/>
+    <label for="qt">Quốc tịch: </label> <br/>
+    <select name="Quoctinh" id="qt">
+        <option value="VN">Việt Nam</option>
+        <option value="TQ">Trung Quốc</option>
+        <option value="L">Lào</option>
+    </select>
+    <label for=""><br/>Sở thích: </label> <br/>
+    <input type="checkbox"> Thể thao 
+    <input type="checkbox"> Du lịch 
+    <input type="checkbox"> Âm nhạc 
+    <input type="checkbox"> Ẩm thực <br/>
+    <label for="">Ghi chú: </label> <br/>
+    <textarea name="" id="qt" cols="50" rows="5"></textarea>
+    <hr/>
+    <button>Đăng kí</button>
+    <button>Nhập lại</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/*.boxcenter{
+    width: 80%; 
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+.box{
+    width: 400px;
+    min-height: 400px;
+    position: absolute;
+    left: 33%;
+    top: 150px;
+    border: 1px solid #ccc;
+}
+
